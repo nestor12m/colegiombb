@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contacto.css" />
+  </head>
+  <body>
+    <!------------------------------------------------------------------------------------------------------
+                                               header
+    -------------------------------------------------------------------------------------------------- -->
+    <main class="contenedor seccion">
+      <h1>Contacto</h1>
+
+      <picture>
+        <source srcset="build/img/destacada3.webp" type="image/webp" />
+        <source srcset="build/img/destacada3.jpg" type="image/jpeg" />
+        <img loading="lazy" src="build/img/destacada3.jpg" alt="destacada3" />
+      </picture>
+
+      <h2>Llene el formulario de contacto</h2>
+
+      <form action="" class="formulario">
+        <fieldset>
+          <legend>Informacion personal</legend>
+
+          <label for="nombre">Nombre</label>
+          <input type="text" placeholder="Tu Nombre" id="nombre" />
+
+          <label for="Email">E-mail</label>
+          <input type="email" placeholder="Tu Email" id="Email" />
+
+          <label for="telefono">telefono</label>
+          <input type="tel" placeholder="Tu Email" id="telefono" />
+
+          <label for="nombre">Curso al que desea Ingresar</label>
+          <input type="text" placeholder="Tu Nombre" id="nombre" />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea name="" id="mensaje" cols="30" rows="5"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar" class="bnt_verde" />
+      </form>
+    </main>
+  </body>
+</html>

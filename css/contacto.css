@@ -1,0 +1,27 @@
+.formulario {
+  width: 90%;
+  margin: 0 auto;
+}
+label {
+  padding-top: 10px;
+}
+input {
+  width: 100%;
+  margin-top: 7px;
+  height: 29px;
+  margin-bottom: 15px;
+}
+
+fieldset {
+  margin-top: 30px;
+}
+.bnt_verde {
+  width: 210px;
+  height: 35px;
+  background-color: greenyellow;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}

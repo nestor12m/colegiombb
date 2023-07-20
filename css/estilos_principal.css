@@ -1,0 +1,39 @@
+.galeria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Galeria_principal {
+  width: 79vw;
+  height: 70vh;
+  margin-top: 30px;
+}
+
+.Galeria_principal img {
+  width: 79vw;
+  height: 70vh;
+}
+
+/* ---------------------------------------------------------------------------------------
+                               seccion nosotros
+------------------------------------------------------------------------------------------------ */
+.container {
+  margin-top: 30px;
+}
+.container img {
+  max-width: 300px;
+  min-width: 150px;
+  margin: 0 auto;
+}
+.fila_articulo {
+  padding: 60px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-imagen {
+  border: 1px solid red;
+}
