@@ -7,18 +7,52 @@
     <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
-    <form class="contenedor-login">
-      <div>
-        <label for="">Usuario</label>
-        <input type="text" />
+    <header>
+      <div></div>
+      <div class="titulo">
+        <h1>COLEGIO MANUEL BELTRAN BOSQUE</h1>
       </div>
+    </header>
+    <!-----------------------------------------------------------------------------------------
+                                              menu
+    --------------------------------------------------------------------------------------------- -->
+    <div class="menu_principal">
+      <nav class="navbar bg-primary" data-bs-theme="dark">
+        <!-- Navbar content -->
 
-      <div>
-        <label for="">Contraseña</label>
-        <input type="password" />
-      </div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <a class="navbar-brand" href="#">Nosotros</a>
+          <a class="navbar-brand" href="#">Comunidad Educativa</a>
+          <a class="navbar-brand" href="contacto.html">Contactanos</a>
+          <a class="navbar-brand" href="#">Iniciar Sesion</a>
+        </div>
+      </nav>
+    </div>
 
-      <input type="submit" value="Ingresar" />
-    </form>
+    <!------------------------------------------------------------------------------
+         login-----
+        --------------------------------------------------------------------------->
+    <h1 class="titulo2">Iniciar Sesion</h1>
+
+    <main>
+      <form class="contenedor-login">
+        <div>
+          <label for="">Usuario</label>
+          <input type="text" />
+        </div>
+
+        <div>
+          <label for="">Contraseña</label>
+          <input type="password" />
+        </div>
+
+        <input class="btn-iniciarsesion" type="submit" value="Ingresar" />
+      </form>
+    </main>
+
+    <!------------------------------------------------------------------------------
+         login-----
+        --------------------------------------------------------------------------->
   </body>
 </html>

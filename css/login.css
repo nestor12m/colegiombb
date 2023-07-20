@@ -1,5 +1,58 @@
+main {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo2 {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_principal {
+  background-color: #19325b;
+  height: 50px;
+}
+a {
+  color: white;
+}
 .contenedor-login {
-  border: 1px solid red;
-  width: 70vw;
+  border: 1px solid rgb(0, 17, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 400px;
   height: 40vh;
+}
+
+label {
+  font-size: 18px;
+  margin: 10px;
+  margin-left: 30px;
+}
+input {
+  margin-bottom: 20px;
+  height: 35px;
+  width: 85%;
+  margin-left: 30px;
+}
+.btn-iniciarsesion {
+  width: 120px;
+  height: 34px;
+  background-color: #19325b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
 }
