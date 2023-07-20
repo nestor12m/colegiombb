@@ -1,5 +1,10 @@
+:root {
+  --color_principal: #19325b;
+  --blanco: white;
+  --font_sizeprincipal: 17px;
+}
+
 body {
-  background-color: rgba(175, 49, 17, 0.932);
 }
 .titulo {
   height: 100px;
@@ -8,6 +13,12 @@ body {
   align-items: center;
 }
 
+.navbar {
+  background-color: var(--color_principal);
+}
+.navbar a {
+  font-size: var(--font_sizeprincipal);
+}
 .galeria {
   display: flex;
   flex-direction: row;
@@ -55,6 +66,10 @@ footer {
   margin: 0 auto;
   padding-top: 30px;
   padding-left: 30px;
+}
+.footer-propidades {
+  background-color: var(--color_principal);
+  color: var(--blanco);
 }
 .redes {
   width: 45px;
