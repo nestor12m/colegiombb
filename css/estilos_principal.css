@@ -1,3 +1,13 @@
+body {
+  background-color: rgba(175, 49, 17, 0.932);
+}
+.titulo {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .galeria {
   display: flex;
   flex-direction: row;
@@ -24,11 +34,10 @@
 .container img {
   max-width: 300px;
   min-width: 150px;
-  margin: 0 auto;
 }
 .fila_articulo {
   padding: 60px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,4 +45,35 @@
 
 .c-imagen {
   border: 1px solid red;
+}
+
+/* ---------------------------------------------------------------------------------------
+                              footer
+------------------------------------------------------------------------------------------------ */
+footer {
+  width: 98%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.redes {
+  width: 45px;
+  height: 35px;
+}
+
+.c-redes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.containercentro {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
