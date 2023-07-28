@@ -5,11 +5,27 @@
 }
 
 .header {
-  border: 1px solid rgba(140, 190, 231, 0.719);
+  border: 0.2px solid rgba(140, 190, 231, 0.719);
   height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titulo_header {
+  margin-left: 30px;
+}
+.nombre_de_usurio {
+  display: flex;
+  gap: 30;
+  /* border: 1px solid red; */
+  margin-right: 30px;
+}
+
+.nombre_de_usurio span {
+  margin-right: 20px;
 }
 .section_left {
-  border: 1px solid rgba(140, 190, 231, 0.719);
+  border: 0.2px solid rgba(140, 190, 231, 0.719);
   width: 15vw;
   height: 88vh;
 }
@@ -37,4 +53,24 @@ main {
 .img_admin_menu {
   width: 25px;
   height: 25px;
+}
+/* -----------------------------------------------------------------------------------------
+                                       materias
+----------------------------------------------------------------------------------------------- */
+
+.contenedor_notas {
+  /* border: 2px solid black; */
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.item {
+  width: 320px;
+  height: 200px;
+  border: 1px solid maroon;
+  background-color: rgb(77, 77, 156);
 }
