@@ -60,7 +60,7 @@ main {
 
 .contenedor_notas {
   /* border: 2px solid black; */
-  height: 85vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -73,4 +73,22 @@ main {
   height: 200px;
   border: 1px solid maroon;
   background-color: rgb(77, 77, 156);
+  border-radius: 5px;
+}
+.item:nth-child(2) {
+  background-color: rgb(28, 157, 189);
+}
+
+.item:nth-child(3) {
+  background-color: rgb(179, 8, 74);
+}
+
+.item:nth-child(4) {
+  background-color: rgb(223, 165, 6);
+}
+.item:nth-child(5) {
+  background-color: rgb(59, 116, 45);
+}
+.item:nth-child(6) {
+  background-color: rgb(34, 3, 175);
 }
