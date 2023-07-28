@@ -66,4 +66,12 @@ input {
   border: none;
   border-radius: 5px;
   margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+}
+.btningreso {
+  text-align: center;
+  border: 1px solid red;
+  width: 120px;
+  height: 34px;
 }
