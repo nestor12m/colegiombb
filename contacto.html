@@ -3,36 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>COLEGIO MBB</title>
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/estilos_principal.css" />
   </head>
   <body>
-    <!------------------------------------------------------------------------------------------------------
-                                               header
-    -------------------------------------------------------------------------------------------------- -->
+
+
+       <!-----------------------------------------------------------------------------------------
+                                            HEADER
+    --------------------------------------------------------------------------------------------- -->
 
     <header>
       <div></div>
-      <div>
-        <h1>COLEGIO MANUEL BELTRAN BOSQUE</h1>
+      <div class="titulo mb-1 text-center">
+       <img src="img/escudo_colombia.png" alt="">
+        <h1 class="pt-lg-3">COLEGIO MANUEL BELTRAN BOSQUE</h1>
+        <img src="img/escudo_colombia.png" alt="">
       </div>
     </header>
     <!-----------------------------------------------------------------------------------------
-                                              menu
+                                             MENU
     --------------------------------------------------------------------------------------------- -->
     <div class="menu_principal">
-      <nav class="navbar bg-primary" data-bs-theme="dark">
+      <nav class="navbar_y" data-bs-theme="dark">
         <!-- Navbar content -->
 
-        <div class="container-fluid">
+        <div class="container-fluid navbar">
           <a class="navbar-brand" href="index.html">Inicio</a>
-          <a class="navbar-brand" href="#">Nosotros</a>
+          <a class="navbar-brand" href="nosotros.html">Nosotros</a>
           <a class="navbar-brand" href="#">Comunidad Educativa</a>
           <a class="navbar-brand" href="contacto.html">Contactanos</a>
-          <a class="navbar-brand" href="#">Iniciar Sesion</a>
+          <a class="navbar-brand" href="iniciar_sesion.html">Iniciar Sesion</a>
         </div>
       </nav>
     </div>
+
+
+      <!-----------------------------------------------------------------------------------------
+                                            FORMMULARIO
+    --------------------------------------------------------------------------------------------- -->
     <main class="contenedor seccion">
       <h1>Contacto</h1>
 
@@ -45,30 +63,99 @@
         />
       </picture>
 
-      <h2>Llene el formulario de contacto</h2>
+     <div class="row">
+ <h2>Llene el formulario de contacto</h2>
+ <div class="mb-4  col-md-5">
+      <form action="" class="formulario ">
+           
 
-      <form action="" class="formulario">
-        <fieldset>
-          <legend>Informacion personal</legend>
+            <label for="Nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" name="Nombre" />
 
-          <label for="nombre">Nombre</label>
-          <input type="text" placeholder="Tu Nombre" id="nombre" />
+                <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" />
 
-          <label for="Email">E-mail</label>
-          <input type="email" placeholder="Tu Email" id="Email" />
+                <label for="Grado" class="form-label">Grado al que ingresaras</label>
+              <input type="text" class="form-control" name="Grado" />
 
-          <label for="telefono">telefono</label>
-          <input type="tel" placeholder="Tu Email" id="telefono" />
+                <label for="telefono" class="form-label">telefono</label>
+              <input type="tel" class="form-control" name="telefono" />
 
-          <label for="nombre">Curso al que desea Ingresar</label>
-          <input type="text" placeholder="Tu Nombre" id="nombre" />
-
-          <label for="mensaje">Mensaje</label>
-          <textarea name="" id="mensaje" cols="30" rows="5"></textarea>
-        </fieldset>
+                <label for="mensaje" class="form-label">Mensaje</label>
+              <input type="text-area" class="form-control" name="mensaje" />
 
         <input type="submit" value="Enviar" class="bnt_verde" />
+
+          
+ 
+           
       </form>
+</div>
+   <div class="mb-4  col-md-6">
+    <p>hola undo</p>
+   </div>
+     </div>
     </main>
+
+
+
+     <!-----------------------------------------------------------------------------------------
+                                           footer
+    --------------------------------------------------------------------------------------------- -->
+
+    <div class="footer-propidades p-4">
+      <footer>
+        <div class="row ">
+          <!-- <nav class="navbar" data-bs-theme="dark">
+      
+
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Inicio</a>
+              <a class="navbar-brand" href="#">Nosotros</a>
+              <a class="navbar-brand" href="#">Comunidad Educativa</a>
+              <a class="navbar-brand" href="#">Contactanos</a>
+              <a class="navbar-brand" href="#">Iniciar Sesion</a>
+            </div>
+          </nav> -->
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            Línea de Admisiones Bogotá: <br />
+            (601) 744 08 94 - 302 2907400<br />
+            Línea Gratuita 01 8000 180537<br /><br /><br />
+
+            Atención DIGITURNO TEAMS:<br />
+            Digiturnos Teams <br />
+          </div>
+          <div class="col-6">
+            Manual gestión PQRSDF y Requerimientos <br /><br />
+            Aspirantes <br /><br />
+            Estudientes <br /><br />
+            Graduados <br /><br />
+            Colaboradores<br /><br />
+          </div>
+        </div>
+        <div class="containercentro">
+          <div class="row text-center mb-2">
+            <div class="c-redes">
+              <a href=""><img class="redes" src="img/facebook.svg" width="30" class="text-center" alt="" /></a>
+              <a href=""><img class="redes" src="img/twitter.svg" width="30" class="text-center" alt="" /></a>
+              <a href=""><img class="redes" src="img/youtube.svg" width="30" class="text-center" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <p> Realizado por Nestor Martinez and Andres Quintero © todos los
+              derechos reservados</p>
+          </div>
+        </div>
+      </footer>
+
+
+    
+     <!-----------------------------------------------------------------------------------------
+                                           final
+    --------------------------------------------------------------------------------------------- -->
   </body>
 </html>

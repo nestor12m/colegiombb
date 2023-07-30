@@ -1,3 +1,11 @@
+
+:root {
+  --color_principal: #19325b;
+  --blanco: white;
+  --font_sizeprincipal: 17px;
+}
+
+
 .contenedor {
   width: 85%;
   margin: 0 auto;
