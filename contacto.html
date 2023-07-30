@@ -19,12 +19,16 @@
   <!-----------------------------------------------------------------------------------------
                                             HEADER
     --------------------------------------------------------------------------------------------- -->
-
-  <header>
-    <div></div>
-    <div class="titulo mb-1 text-center">
+  <header class=" d-flex justify-content-around text-center">
+    <div class="col-sm-12 col-md-2 col-lg-2">
       <img src="img/escudo_colombia.png" alt="">
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-8">
+
       <h1 class="pt-lg-3">COLEGIO MANUEL BELTRAN BOSQUE</h1>
+
+    </div>
+    <div class="col-sm-12 col-md-2 col-lg-2">
       <img src="img/escudo_colombia.png" alt="">
     </div>
   </header>
@@ -49,44 +53,75 @@
   <!-----------------------------------------------------------------------------------------
                                             FORMMULARIO
     --------------------------------------------------------------------------------------------- -->
-  <main class="contenedor seccion">
-    <h1>Contacto</h1>
+  <main class="seccion">
+    <div class="row colorfondo_titulo text-center">
+      <h1 class="p-3 p">Contacto</h1>
+    </div>
 
-    <picture>
-      <img class="imgcontacto" loading="lazy" src="img/img2.jpg" alt="destacada3" />
+    <picture class="row">
+      <!-- <div class="col-sm-1 col-md-2 text-center">
+        <img src="img/bxs-chevron-left.svg" alt="" width="100px">
+      </div> -->
+      <div class="col-sm-10 col-md-8">
+        <img class=" mt-5" loading="lazy" src="img/img2.jpg" alt="destacada3" height="400px" width="100%" />
+      </div>
+      <!-- <div class="col-sm-1 col-md-2 text-center">
+        <img src="img/bxs-chevron-right.svg" alt="" width="100px">
+      </div> -->
     </picture>
 
-    <div class="row ">
-      <h2>Llene el formulario de contacto</h2>
-      <div class="mb-4  col-md-5">
-        <form action="" class="formulario  border border-dark p-3 ">
+    <div class="container">
+
+      <div class="row">
 
 
-          <label for="Nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" name="Nombre" />
-
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" name="email" />
-
-          <label for="Grado" class="form-label">Grado al que ingresaras</label>
-          <input type="text" class="form-control" name="Grado" />
-
-          <label for="telefono" class="form-label">telefono</label>
-          <input type="tel" class="form-control" name="telefono" />
-
-          <label for="mensaje" class="form-label">Mensaje</label>
-          <input type="text-area" class="form-control" name="mensaje" />
-
-          <input type="submit" value="Enviar" class="btn bnt_verde mt-3" />
+        <div class=" mb-4  col-md-5 ">
+          <h2 class="mb-5">Llene el formulario de contacto</h2>
+          <form action="" class="formulario  border border-dark p-3 ">
 
 
+            <label for="Nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="Nombre" />
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" />
+
+            <label for="Grado" class="form-label">Grado al que ingresaras</label>
+            <input type="text" class="form-control" name="Grado" />
+
+            <label for="telefono" class="form-label">telefono</label>
+            <input type="tel" class="form-control" name="telefono" />
+
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <input type="text-area" class="form-control" name="mensaje" />
+
+            <input type="submit" value="Enviar" class="btn bnt_verde mt-3" />
 
 
-        </form>
+
+
+          </form>
+        </div>
+
+
+        <div class=" mb-4 text-start col-md-6 ">
+          <h2>Tenga en cuenta los requisitos para la matricula</h2>
+          <div class="mt-2 p-5">
+            <p><span>* </span> Certificado del curso anterior terminado</p>
+            <p><span>*</span> Documento de identidad del postulante</p>
+            <p><span>*</span> Registro civil de Nacimiento</p>
+            <p><span>*</span> Certificado de la Eps</p>
+            <p><span>*</span> Certificado del curso anterior terminado</p>
+            <p><span>*</span> Certificado del curso anterior terminado</p>
+            <p><span>*</span> Certificado del curso anterior terminado</p>
+            <p><span>*</span> Certificado del curso anterior terminado</p>
+            <p><span>*</span> Certificado del curso anterior terminado</p>
+          </div>
+        </div>
+
       </div>
-      <div class="mb-4  col-md-6">
-        <p>hola undo</p>
-      </div>
+    </div>
+
     </div>
   </main>
 
@@ -112,8 +147,8 @@
           </nav> -->
       </div>
 
-      <div class="row">
-        <div class="col-6">
+      <div class="row ">
+        <div class="col-md-4">
           Línea de Admisiones Bogotá: <br />
           (601) 744 08 94 - 302 2907400<br />
           Línea Gratuita 01 8000 180537<br /><br /><br />
@@ -121,10 +156,14 @@
           Atención DIGITURNO TEAMS:<br />
           Digiturnos Teams <br />
         </div>
-        <div class="col-6">
+        <div class="col-md-4">
           Manual gestión PQRSDF y Requerimientos <br /><br />
           Aspirantes <br /><br />
           Estudientes <br /><br />
+
+        </div>
+
+        <div class="col-md-4">
           Graduados <br /><br />
           Colaboradores<br /><br />
         </div>
