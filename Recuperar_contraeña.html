@@ -8,14 +8,10 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-
-  <link rel="stylesheet" href="css/contacto.css" />
   <link rel="stylesheet" href="css/estilos_principal.css" />
 </head>
 
 <body>
-
-
   <!-----------------------------------------------------------------------------------------
                                             HEADER
     --------------------------------------------------------------------------------------------- -->
@@ -32,65 +28,78 @@
                                              MENU
     --------------------------------------------------------------------------------------------- -->
   <div class="menu_principal">
-    <nav class="navbar_y" data-bs-theme="dark">
+    <nav class="navbar_y " data-bs-theme="dark">
       <!-- Navbar content -->
 
       <div class="container-fluid navbar">
-        <a class="navbar-brand" href="index.html">Inicio</a>
-        <a class="navbar-brand" href="nosotros.html">Nosotros</a>
-        <a class="navbar-brand" href="Comunidad.html">Comunidad Educativa</a>
-        <a class="navbar-brand" href="contacto.html">Contactanos</a>
-        <a class="navbar-brand" href="iniciar_sesion.html">Iniciar Sesion</a>
+        <a class="navbar-brand " href="index.html">Inicio</a>
+        <a class="navbar-brand " href="nosotros.html">Nosotros</a>
+        <a class="navbar-brand " href="Comunidad.html">Comunidad Educativa</a>
+        <a class="navbar-brand " href="contacto.html">Contactanos</a>
+        <a class="navbar-brand " href="iniciar_sesion.html">Iniciar Sesion</a>
       </div>
     </nav>
   </div>
 
-
   <!-----------------------------------------------------------------------------------------
-                                            FORMMULARIO
+                                          LOGIN
     --------------------------------------------------------------------------------------------- -->
-  <main class="contenedor seccion">
-    <h1>Contacto</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-sm-10 col-md-4 col-lg-4 col-xl-4">
+        <h2 class="fw-bold text-center pt-5 mb-5">Bienvenido</h2>
 
-    <picture>
-      <img class="imgcontacto" loading="lazy" src="img/img2.jpg" alt="destacada3" />
-    </picture>
+        <!----------------------------------------------------
+                      login
+          -------------------------------- ----------------------->
 
-    <div class="row ">
-      <h2>Llene el formulario de contacto</h2>
-      <div class="mb-4  col-md-5">
-        <form action="" class="formulario  border border-dark p-3 ">
+        <form action="#" class="">
+          <div class="mb-4 ">
+            <label for="email" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" name="email" />
+          </div>
+          <div class="mb-4">
+            <label for="password" class="form-label">Contraseña Anterior</label>
+            <input type="password" class="form-control" name="password" />
+          </div>
+          <div class="mb-4">
+            <label for="password" class="form-label">Contraseña Nueva</label>
+            <input type="password" class="form-control" name="password" />
+          </div>
+          <div class="mb-4">
+            <label for="password" class="form-label">Confirmar Contraseña Nueva</label>
+            <input type="password" class="form-control" name="password" />
+          </div>
+          <!-- <div class="mb-4 form-check">
+              <input
+                type="checkbox"
+                name="connected"
+                class="form-check-input"
+              />
+              <label for="connected" class="form-check-label"
+                >Mantenerme conectado</label
+              >
+            </div> -->
+          <div class="d-grid">
+            <!-- <button type="submit" class="btn btn-primary">
+               
+              </button> -->
+            <a href="admin/admin.html" class="btn btn_verde">Iniciar Sesion</a>
+          </div>
 
-
-          <label for="Nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" name="Nombre" />
-
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" name="email" />
-
-          <label for="Grado" class="form-label">Grado al que ingresaras</label>
-          <input type="text" class="form-control" name="Grado" />
-
-          <label for="telefono" class="form-label">telefono</label>
-          <input type="tel" class="form-control" name="telefono" />
-
-          <label for="mensaje" class="form-label">Mensaje</label>
-          <input type="text-area" class="form-control" name="mensaje" />
-
-          <input type="submit" value="Enviar" class="btn bnt_verde mt-3" />
-
-
-
-
+          <div class="my-3 mb-5">
+            <span>
+              <!-- <a href="#">Regristrate</a>
+                <br /> -->
+              <a href="iniciar_sesion.html">Iniciar Sesion</a></span>
+          </div>
         </form>
       </div>
-      <div class="mb-4  col-md-6">
-        <p>hola undo</p>
-      </div>
+
+      <div class="col"></div>
     </div>
-  </main>
-
-
+  </div>
 
   <!-----------------------------------------------------------------------------------------
                                            footer
@@ -131,6 +140,7 @@
       </div>
       <div class="containercentro">
         <div class="row text-center mb-2">
+
           <div class="c-redes d-flex justify-content-center gap-3">
             <p class="siguenos">Síguenos</p>
             <a href=""><img class="redes" src="img/facebook.svg" width="30" class="text-center" alt="" /></a>
@@ -152,7 +162,7 @@
                                            final
     --------------------------------------------------------------------------------------------- -->
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </html>
