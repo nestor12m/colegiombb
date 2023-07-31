@@ -5,19 +5,25 @@
   --colorbotones1:#00A09D;
 }
 
-
+/* 
+.titulo {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
 
 .navbar_y {
   background-color: var(--color_principal);
+ 
+
 }
 .navbar_y a {
   font-size: var(--font_sizeprincipal);
+  color: var(--blanco);
 }
 
-.container-fluid {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .colorfondo_titulo{
   background-color: rgba(209, 209, 208, 0.438);
@@ -26,19 +32,20 @@
 /* ---------------------------------------------------------------------------------------
                                seccion nosotros
 ------------------------------------------------------------------------------------------------ */
-.container {
-  margin-top: 30px;
-}
+
 .container img {
   max-width: 300px;
   min-width: 150px;
 }
 .fila_articulo {
   padding: 60px;
-  /* border: 1px solid red; */
+ 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.fila_articulo:nth-child(1){
+  order: 0;
 }
 
 /* .c-imagen {
